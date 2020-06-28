@@ -77,19 +77,12 @@ Friday, Saturday, Sunday.")
                 day = 'all'
 
             # present filters selected to user
-            if period == 'both':
-                print('The following criteria have been selected:\n\
-                        City:   {}\n\
-                        Month:  {}\n\
-                        Weekday:{}'.format(city.title(), month.title(), day.title()))
-            elif period == 'month':
-                print('The following criteria have been selected:\n\
-                        City:   {}\n\
-                        Month:  {}'.format(city.title(), month.title()))
-            elif period == 'weekday':
-                print('The following criteria have been selected:\n\
-                        City:   {}\n\
-                        Weekday:  {}'.format(city.title(), day.title()))
+            print('The following criteria have been selected:\n\
+                    City:   {}'.format(city.title(), month.title()))
+            if period != 'weekday':
+                print('                    Month:  {}'.format(city.title(), month.title()))
+            if period != 'month':
+                print('                    Weekday:  {}'.format(city.title(), month.title()))
 
             # check to see if input data is correct, loop to beggining if not
             while True:
