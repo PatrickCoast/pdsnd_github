@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+2020-06-28 12.10 PM GMT-1
 
 ### Project Title
-Replace the Project Title
+Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+Create interactive software that can be used to drill down into US bikeshare data.
 
 ### Files used
-Include the files used
+bikeshare.py
+README.md
+The .csv files have been excluded upon the request of Udacity.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity
