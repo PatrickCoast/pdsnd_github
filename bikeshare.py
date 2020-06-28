@@ -78,7 +78,7 @@ Friday, Saturday, Sunday.")
 
             # present filters selected to user
             print('The following criteria have been selected:\n\
-                    City:   {}\n'.format(city.title(), month.title()))
+                    City:   {}'.format(city.title(), month.title()))
             if period != 'weekday':
                 print('                    Month:  {}'.format(city.title(), month.title()))
             if period != 'month':
